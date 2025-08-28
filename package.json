@@ -14,7 +14,6 @@
     "add-version": "node ./add-frontend-version.js",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "bootstrap": "pnpm install && pnpm run common:prepare",
